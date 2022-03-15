@@ -9,6 +9,18 @@
 	#wrapper {
 		#sidebar + & {
 			margin-left: _size(sidebar-width);
+			background-color: _palette(accent1-alt);
+
+			#bg-animation {
+				opacity: 0;
+				width: 100%;
+			    height: 100%;
+			    position: fixed;
+			    background-image: url('images/intro.svg');
+			    background-position: center left;
+			    background-repeat: no-repeat;
+			    background-size: cover;
+			}
 
 			@include breakpoint('<=large') {
 				margin-left: 0;
@@ -17,6 +29,19 @@
 
 			@include breakpoint('<=small') {
 				padding-top: 0;
+			}
+		}
+
+		&.code-page {
+			#bg-animation {
+				opacity: 0;
+				width: 100%;
+			    height: 100%;
+			    position: fixed;
+			    background-image: url('images/intro.svg');
+			    background-position: center left;
+			    background-repeat: no-repeat;
+			    background-size: cover;
 			}
 		}
 

@@ -1,24 +1,79 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000px" height="500px" viewBox="0 0 1000 500" zoomAndPan="disable" preserveAspectRatio="none">
-
-    <style type="text/css"><![CDATA[
-		line
-		{
-			stroke: rgba(255,255,255,0.05);
-			stroke-width: 1px;
-		}
-    ]]></style>
-
-	<line x1="1100" y1="500" x2="-1000" y2="250" />
-	<line x1="1100" y1="500" x2="-1000" y2="-100" />
-	<line x1="1100" y1="500" x2="-1000" y2="-500" />
-	<line x1="1100" y1="500" x2="-250" y2="-500" />
-	<line x1="1100" y1="500" x2="300" y2="-500" />
-	<line x1="1100" y1="500" x2="750" y2="-500" />
-
-	<line x1="1750" y1="0" x2="750" y2="500" />
-	<line x1="1500" y1="0" x2="500" y2="500" />
-	<line x1="1150" y1="0" x2="150" y2="500" />
-	<line x1="700" y1="0" x2="-300" y2="500" />
-	<line x1="150" y1="0" x2="-850" y2="500" />
-
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="950" height="800" preserveAspectRatio="none" viewBox="0 0 950 800">
+  <style>
+      .asteroid{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:3px;opacity:.03}.small{stroke-width:2px}100%{transform:translate(-1600px,-200px)}.left-up-big-i2{animation:left-up-big 75s linear 18s infinite}.left-up-big-i3{animation:left-up-big 75s linear 42s infinite}@keyframes left-down-big{0%{transform:translate(0,0)}100%{transform:translate(-1600px,200px)}}.left-down-big-1{animation:left-down-big 85s linear 1 forwards}.left-down-big-i2{animation:left-down-big 75s linear 18s infinite}.left-down-big-i3{animation:left-down-big 75s linear 42s infinite}@keyframes right-up-big{0%{transform:translate(0,0)}100%{transform:translate(1600px,-400px)}}.right-up-big-1{animation:right-up-big 85s linear 1 forwards}.right-up-big-i2{animation:right-up-big 75s linear 18s infinite}.right-up-big-i3{animation:right-up-big 75s linear 42s infinite}@keyframes right-down-big{0%{transform:translate(0,0)}100%{transform:translate(1600px,400px)}}.right-down-big-1{animation:right-down-big 85s linear 1 forwards}.right-down-big-i2{animation:right-down-big 75s linear 18s infinite}.right-down-big-i3{animation:right-down-big 75s linear 42s infinite}@keyframes up-right-big{0%{transform:translate(0,0)}100%{transform:translate(415px,-1500px)}}.up-right-big-1{animation:up-right-big 95s linear 1 forwards}.up-right-big-i2{animation:up-right-big 85s linear 16s infinite}.up-right-big-i3{animation:up-right-big 85s linear 40s infinite}@keyframes up-left-big{0%{transform:translate(0,0)}100%{transform:translate(-215px,-1500px)}}.up-left-big-1{animation:up-left-big 95s linear 1 forwards}.up-left-big-i2{animation:up-left-big 85s linear 16s infinite}.up-left-big-i3{animation:up-left-big 85s linear 40s infinite}@keyframes down-right-big{0%{transform:translate(0,0)}100%{transform:translate(215px,1500px)}}.down-right-big-1{animation:down-right-big 95s linear 1 forwards}.down-right-big-i2{animation:down-right-big 85s linear 16s infinite}.down-right-big-i3{animation:down-right-big 85s linear 40s infinite}@keyframes down-left-big{0%{transform:translate(0,0)}100%{transform:translate(-415px,1500px)}}.down-left-big-1{animation:down-left-big 95s linear 1 forwards}.down-left-big-i2{animation:down-left-big 85s linear 16s infinite}.down-left-big-i3{animation:down-left-big 85s linear 40s infinite}100%{transform:translate(-1600px,-200px)}.left-up-small-i2{animation:left-up-small 45s linear 18s infinite}.left-up-small-i3{animation:left-up-small 45s linear 29s infinite}@keyframes left-down-small{0%{transform:translate(0,0)}100%{transform:translate(-1600px,200px)}}.left-down-small-1{animation:left-down-small 55s linear 1 forwards}.left-down-small-i2{animation:left-down-small 45s linear 18s infinite}.left-down-small-i3{animation:left-down-small 45s linear 29s infinite}@keyframes right-up-small{0%{transform:translate(0,0)}100%{transform:translate(1600px,-400px)}}.right-up-small-1{animation:right-up-small 55s linear 1 forwards}.right-up-small-i2{animation:right-up-small 45s linear 18s infinite}.right-up-small-i3{animation:right-up-small 45s linear 29s infinite}@keyframes right-down-small{0%{transform:translate(0,0)}100%{transform:translate(1600px,400px)}}.right-down-small-1{animation:right-down-small 55s linear 1 forwards}.right-down-small-i2{animation:right-down-small 45s linear 18s infinite}.right-down-small-i3{animation:right-down-small 45s linear 29s infinite}@keyframes up-right-small{0%{transform:translate(0,0)}100%{transform:translate(415px,-1500px)}}.up-right-small-1{animation:up-right-small 65s linear 1 forwards}.up-right-small-i2{animation:up-right-small 55s linear 14s infinite}.up-right-small-i3{animation:up-right-small 55s linear 27s infinite}@keyframes up-left-small{0%{transform:translate(0,0)}100%{transform:translate(-215px,-1500px)}}.up-left-small-1{animation:up-left-small 65s linear 1 forwards}.up-left-small-i2{animation:up-left-small 55s linear 14s infinite}.up-left-small-i3{animation:up-left-small 55s linear 27s infinite}@keyframes down-right-small{0%{transform:translate(0,0)}100%{transform:translate(215px,1500px)}}.down-right-small-1{animation:down-right-small 65s linear 1 forwards}.down-right-small-i2{animation:down-right-small 55s linear 14s infinite}.down-right-small-i3{animation:down-right-small 55s linear 27s infinite}@keyframes down-left-small{0%{transform:translate(0,0)}100%{transform:translate(-415px,1500px)}}.down-left-small-1{animation:down-left-small 65s linear 1 forwards}.down-left-small-i2{animation:down-left-small 55s linear 14s infinite}.down-left-small-i3{animation:down-left-small 55s linear 27s infinite}
+  </style>
+  <defs>
+    <polygon id="Big-1"
+      class="asteroid"
+      points="6.51 17.27 25.24 1.27 41.6 12.9 58.51 6.18 73.42 26.54 56.15 32.54 70.15 53.27 50.15 77.63 25.42 64.9 16.87 72.36 1.24 51.81 12.51 35.63 6.51 17.27"/>
+  </defs>
+  <defs>
+    <polygon id="Big-2"
+      class="asteroid"
+      points="32.52 1.35 43.97 23.17 65.25 12.26 75.97 34.8 63.06 49.17 65.43 69.89 36.16 78.08 11.79 70.08 1.06 46.98 10.88 12.62 32.52 1.35"/>
+  </defs>
+  <defs>
+    <polygon id="Big-3"
+      class="asteroid"
+      points="56.7 6.29 71.97 27.38 73.18 59.86 66.4 64.71 44.09 48.95 45.55 81.44 20.82 77.07 23.49 65.44 1.18 47.5 12.09 17.44 33.91 1.44 47.73 23.01 56.7 6.29"/>
+  </defs>
+  <defs>
+    <polygon id="Lil-1"
+      class="asteroid small"
+      points="7.22 7.12 15.1 17.55 14.37 1.43 28.43 6.27 25.64 15.36 34.49 14.15 32.43 33.06 22.61 41.18 9.04 36.94 2.25 29.06 1.03 11.97 7.22 7.12"/>
+  </defs>
+  <defs>
+    <polygon id="Lil-2"
+      class="asteroid small"
+      points="13.88 1.5 26.07 1.5 29.03 10.73 37.91 14.73 37.91 27.62 29.38 29.88 26.94 39.81 13.88 40.33 15.97 30.58 4.83 30.23 1.69 14.04 13.71 8.12 13.88 1.5"/>
+  </defs>
+  <defs>
+    <polygon id="Big-1-alt"
+      class="asteroid"
+      points="1.86 43.29 16.91 30.38 14.81 11.22 37.6 2.13 39.44 21.06 63.04 11.35 82.26 36.92 64.08 57.42 69.24 68.64 45.86 78.08 31.88 64.08 12.79 65.22 1.86 43.29"/>
+  </defs>
+  <defs>
+    <polygon id="Big-2-alt"
+      class="asteroid"
+      points="1.68 29.55 26.87 27.64 24.25 3.2 49.24 1.56 57.8 18.94 77.57 24.31 74.93 54.55 58.15 73.77 33.23 76.29 4.67 54.14 1.68 29.55"/>
+  </defs>
+  <defs>
+    <polygon id="Big-3-alt"
+      class="asteroid"
+      points="60.49 51.44 75.7 63.12 51.2 75.16 20.14 70.58 15.59 63.63 34.93 44.46 2.03 40.69 10.21 17.23 22.28 21.15 42.49 1.83 70.54 16.68 83.36 40.23 60.49 51.44"/>
+  </defs>
+  <defs>
+    <polygon id="Lil-1-alt"
+      class="asteroid small"
+      points="2.67 11.72 14.54 3.02 19.53 11.09 23.56 2.5 37.88 15.75 38.62 28.59 27.06 37.18 17.41 37.81 3.62 29.33 2.67 20.63 16.03 20.15 2.67 11.72"/>
+  </defs>
+  <defs>
+    <polygon id="Lil-2-alt"
+      class="asteroid small"
+      points="39.17 9.83 42.76 21.48 34.8 27.02 33.58 36.69 21.27 40.47 16.6 32.98 6.39 33.57 2.06 21.24 11.99 20.37 9.05 9.62 23.61 1.86 32.8 11.61 39.17 9.83"/>
+  </defs>
+  
+    <g fill="none">
+        <rect width="950" height="800" x="0" y="0" fill="none"></rect>
+        <!-- First wave -->
+        <use x="13%" y="25%" xlink:href="#Big-1" class="down-left-big-1"/>
+        <use x="10%" y="70%" xlink:href="#Big-2" class="up-left-big-1"/>
+        <use x="75%" y="25%" xlink:href="#Big-3-alt" class="left-down-big-1"/>
+        <use x="32%" y="25%" xlink:href="#Lil-1" class="up-right-small-1"/>
+        <use x="70%" y="60%" xlink:href="#Lil-1-alt" class="left-down-small-1"/>
+        <use x="60%" y="10%" xlink:href="#Lil-2" class="right-up-small-1"/>
+        <use x="85%" y="60%" xlink:href="#Lil-2-alt" class="down-left-small-1"/>
+        <!-- Second wave -->
+        <use x="13%" y="-10%" xlink:href="#Big-1-alt" class="down-left-big-i2"/>
+        <use x="100%" y="25%" xlink:href="#Big-3" class="left-down-big-i2"/>
+        <use x="32%" y="115%" xlink:href="#Lil-1-alt" class="up-right-small-i2"/>
+        <use x="-15%" y="80%" xlink:href="#Lil-2-alt" class="right-up-small-i2"/>
+        <use x="100%" y="650%" xlink:href="#Lil-2" class="left-down-small-i2"/>
+        <!-- Third wave -->
+        <use x="45%" y="-10%" xlink:href="#Big-2-alt" class="down-right-big-i3"/>
+        <use x="110%" y="80%" xlink:href="#Big-1" class="left-up-big-i3"/>
+        <use x="-10%" y="25%" xlink:href="#Big-3-alt" class="right-down-big-i3"/>
+        <use x="15%" y="100%" xlink:href="#Lil-1" class="up-left-i3"/>
+        <use x="105%" y="65%" xlink:href="#Lil-1-alt" class="left-down-small-i3"/>
+    </g>
 </svg>

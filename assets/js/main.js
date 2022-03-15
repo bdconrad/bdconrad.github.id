@@ -8,7 +8,9 @@
 
 	var	$window = $(window),
 		$body = $('body'),
-		$sidebar = $('#sidebar');
+		$sidebar = $('#sidebar'),
+		$hidden = $('span.hidden'),
+		$bga = $('#bg-animation');
 
 	// Breakpoints.
 		breakpoints({
@@ -29,6 +31,12 @@
 				$body.removeClass('is-preload');
 			}, 100);
 		});
+
+	// Fade in code embeds.
+		$hidden.delay(150).animate({'opacity':'1'},600);
+
+	// Fade in asteroids animation.
+		$bga.delay(100).animate({'opacity':'1'},400);
 
 	// Forms.
 

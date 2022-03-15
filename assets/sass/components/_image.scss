@@ -48,6 +48,10 @@
 			}
 		}
 
+		&.hidden {
+			opacity: 0;
+		}
+
 		&.main {
 			display: block;
 			margin: 0 0 (_size(element-margin) * 1.5) 0;
