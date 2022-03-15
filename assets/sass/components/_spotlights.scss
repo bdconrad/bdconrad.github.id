@@ -109,7 +109,7 @@
 				> .image {
 					background-size: 50%;
 					width: 100%;
-					height: 20vh;
+					height: 30vh;
 				}
 
 				> .content {
@@ -134,6 +134,10 @@
 				> .content {
 					@include padding(3em, 2em);
 				}
+			}
+
+			@include breakpoint('<=xsmall') {
+				height: 20vh;
 			}
 		}
 	}
