@@ -3199,7 +3199,7 @@ body.is-ie .spotlights > section {
   }
 }
 @media screen and (max-width: 480px) {
-  .spotlights > section {
+  .spotlights > section > .image {
     height: 20vh;
   }
 }
